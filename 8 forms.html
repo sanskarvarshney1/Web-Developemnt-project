@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Employee Form </h2>
+    <form action="backend.php">
+        
+        <div>
+            Name:<input type="text">
+        </div>
+        <br>
+        <div>
+            Role:<input type="text">
+        </div>
+        <br>
+        <div>
+            Email:<input type="text" name="myemail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="mydate">
+        </div>
+        <br>
+            <div>
+                Bonus: <input type="number" name="myBonus">
+            </div>
+            <br>
+            <div>
+                Are you eligible ?: <input type="checkbox"  name="myeligibility" checked>
+            </div>
+            <br>
+            <div>
+                Gender : Male<input type="radio" name="mygender">Female <input type="radio" value="mygender">
+              Other<input type="radio" name="mygender">
+            </div>
+            <br>
+            <div>
+                Write about Yourself <br><textarea name="" cols="90" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="place">Place for Job</label>
+                <select name="myplace" id="place">
+                    <option value="mbd" selected>MBD</option>
+                    <option value="dehli">dehli</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="Hyderabad" >Hyderabad</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+            <br>
+            <br>
+            
+    </form>
+</body>
+
+</html>
